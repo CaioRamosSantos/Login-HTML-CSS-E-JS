@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login CaioRamos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <h1>Login</h1>
+            
+            <form id="loginForm">
+                <div class="input-group">
+                    <i data-lucide="mail" class="icon"></i>
+                    <input type="email" name="email" placeholder="E-mail" required>
+                </div>
+
+                <div class="input-group">
+                    <i data-lucide="lock" class="icon"></i>
+                    <input type="password" name="senha" placeholder="Senha" required>
+                </div>
+
+                <div class="checkbox-group">
+                    <input type="checkbox" name="lembrar" id="lembrar">
+                    <label for="lembrar">Lembrar senha</label>
+                </div>
+
+                <button type="submit">
+                    <i data-lucide="log-in"></i>
+                    ENTRAR
+                </button>
+            </form>
+
+            <p class="signup-link">
+                Não tem uma conta? <a href="#">Cadastre-se</a>
+            </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
